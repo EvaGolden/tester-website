@@ -1,0 +1,193 @@
+.header1{
+    padding-right: 10px;
+    float: right;
+    color: rgb(3, 3, 172);
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+    margin: -10px;
+    font-size: small;
+ }
+ .wrapper ul li a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .wrapper ul li {
+    text-decoration: none;
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+ }
+ .wrappers{
+    display: flex;
+    position: relative;
+    left:-250px;
+ }
+ .wrappers .sidebar{
+    position: fixed;
+    width:220px;
+    height: 100%;
+    background:rgb(3, 3, 172);
+    padding: 30px 0;
+    transition: all .5s ease;
+ }
+ header{
+    color:aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family:serif;
+ }
+ .wrappers .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgb(0,0,0,0.05);
+    border-top: 1px solid rgb(3, 3, 172);
+ }  
+ .wrappers .sidebar ul li a{
+    color: white;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .wrappers .sidebar ul li a .fa{
+    width:25px;
+ }
+ .wrappers .sidebar ul li:hover{
+    background:rgb(11, 11, 49);
+ }
+ .wrappers .sidebar ul li:hover a{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .wrappers .main_content{
+    width:100%;
+    margin-top: -20px;
+    margin-left: 220px;
+    padding-left: 10px;
+ }
+ .wrappers .main_content .header{
+ background: rgb(248, 248, 248);
+ margin: -20px;
+ }
+ button{
+    background-color: blanchedalmond;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    font-family:sans-serif;
+    font-style: oblique;
+    font-size: large;
+    height: 30px;
+    width: 100px;
+ }
+ .info{
+    border-radius: 5px;
+    color: white;
+    margin: -15px;
+ }
+ .infoz{
+    background-color:rgb(3, 3, 172);
+    border-radius: 5px;
+    color: white;
+    padding-left: 20px;
+    margin: -10px;
+    width: 1350px;
+ }
+ .ads{
+    padding-left: 15px;
+    margin-top: -50px;
+ }
+ .bals{
+    padding-left: 10px;
+    margin-top: -50px;
+ }
+ 
+ .info h4{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: x-large;
+ padding-left: 30px;
+ padding-top: 10px;
+ }
+ .info p{
+    padding-left:30px;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -30px;
+    letter-spacing: 5px;
+ }
+ 
+ .his{
+    float: right;
+    padding-right: 50px;
+    padding-top: 5px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .infos{
+    display: flex;
+    padding: 5px;
+ }
+ 
+ #check{
+    display:none;
+    padding-top: 30px;
+ }
+ label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background:rgb(255, 255, 255);
+    border-radius: 2px;
+   
+ }
+ label #btn{
+    left:40px;
+    top: 25px;
+    font-size: 35px;
+    color: rgb(3, 3, 172);
+    padding: 6px 12px;
+    transition: all .5s;
+ 
+ }
+ label #cancel{
+ z-index: 1111;
+ position: fixed;
+ left:-195px;
+ top:17px;
+ font-size: 20px;
+ color:rgb(3, 3, 172);
+ padding:4px 6px;
+ transition: all .5s ease;
+ }
+ 
+ #check:checked ~ .wrappers{
+    left:0;
+ }
+ #check:checked ~ label #btn{
+ left: 250px;
+ opacity: 0;
+ pointer-events: none;
+ }
+ #check:checked ~ label #cancel{
+    left:195px;
+ }
+ .infoz1{
+    background-color: rgb(1, 1, 20);
+    border-radius: 5px;
+    color: white;
+    padding-left: 30px;
+    margin: -32px;
+    width: 1360px;
+ }
+ .infoz2{
+    background-color:rgb(3, 3, 172);
+    border-radius: 5px;
+    color: white;
+    padding-left: 30px;
+    margin: -32px;
+    width: 1360px;
+ }
+ .wire{
+    height: 100px;
+    width: 110px;
+    padding-right: 50px;
+    float: right;
+ }

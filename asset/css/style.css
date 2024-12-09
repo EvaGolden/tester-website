@@ -1,0 +1,187 @@
+#{
+    margin: -10px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+.topheader{
+background-color: rgb(1, 1, 119);
+color: aliceblue;
+padding-left: 30px;
+padding-top: 5px;
+height: 300px;
+margin: -20px;
+margin-top: 0.1rem;
+font-family: Arial, Helvetica, sans-serif, monospace;;
+
+
+}
+.parrty{
+    float: right;
+    padding-right: 25px;
+}
+.parrty a{
+   text-decoration: none;
+   color: aliceblue;
+}
+.part2{
+    background-color: rgb(3, 3, 172);
+    color: aliceblue;
+    font-size: larger;
+    height: 30px;
+    padding-left: 30px;
+    margin: -20px;
+   
+}
+.part-content{
+background-color: rgb(1, 1, 119);
+height: 40px;
+font-size: larger;
+color: aliceblue;
+margin: -20px;
+padding-left: 30px;
+}
+.trade{
+    background-color:rgb(3, 3, 172);
+    color: aliceblue;
+    padding-left: 30px;
+    font-size: large;
+    margin: -20px;
+}
+.store{
+    height: 150px;
+    width:150px;
+ }
+ .stores{
+   height: 150px;
+   width:150px;
+   align-content: center;
+}
+ .subhead{
+    margin-top: -1.3rem;
+ }
+ .lowheader1{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+ }
+ .sublowheader{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:-1rem;
+    font-size: larger;
+ }
+ .subtext{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:-0.9rem;
+    font-size: small;
+    letter-spacing: 1.5px;
+ }
+ .subtext0{
+ font-family:Arial, Helvetica, sans-serif, monospace;
+ margin-top:-0.7rem;
+ }
+ .store{
+    margin-top: -55px;
+ }
+ .feedback{
+    background-color: rgb(1, 1, 119);
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 300;
+    margin: -20px;
+    padding-top: 10px;
+    text-align: center;
+    height: 300px
+ }
+ .testimony{
+    background-color:rgb(3, 3, 172);
+    font-family: arial;
+    
+ }
+.testimonial-text{
+   padding-top: 15px;
+}
+.market{
+   background-color: rgb(32, 30, 36);
+   margin: -20px;
+}
+.payment{
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(3, 3, 172);
+   color: rgb(196, 198, 199);
+   margin:-20px;
+   display: flex;
+   padding-top: 15px;
+   height: 200px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.foot{
+   background-color: black;
+   color: rgb(150, 149, 148);
+   margin: -18px;
+   padding-left: 30px;
+   padding-top: 20px;
+   height: 300px;
+   font-family: Verdana,Tahoma, sans-serif;
+   padding-right: 20px;
+}
+.chart{
+   margin: -20px;
+   height: 800px;
+   width: 1360px;
+   padding-top: 5px;
+   padding-left: 2px;
+   background-color:rgb(3, 6, 17)
+}
+.place{
+margin: -20px;
+width: 1362px;
+height: 100px;
+background-color:rgb(3, 6, 17);
+
+
+}
+.ace{
+   float: right;
+   display: flex;
+   padding-right: 30px;
+}
+.buy{
+   padding-right: 15px;
+}
+.buy button{
+   background-color: rgb(0, 128, 100);
+   width:150px;
+   height: 50px;
+   border: none;
+   color: white;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 30px;
+   align-items: center;
+  
+}
+.sell button{
+   background-color: rgb(190, 35, 8);
+   width:150px;
+   height: 50px;
+   border: none;
+   color: white;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 30px;
+   align-items: center;
+}
+.markets{
+   height: 40px;
+   width: 75px;
+   display: flex;
+   padding-left: 15px;
+
+}
+.markets{
+   padding: 10px;
+   height: 40px;
+   width: 75px;
+}
+.tradeimg{
+   float: right;
+}
